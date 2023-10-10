@@ -8,10 +8,10 @@ consumers:
   - username: DASHBOARD
   - username: anon
     keyauth_credentials:
-      - key: $SUPABASE_ANON_KEY
+      - key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJyb2xlIjogImFub24iLAogICJpc3MiOiAic3VwYWJhc2UiLAogICJpYXQiOiAxNjk2ODg4ODAwLAogICJleHAiOiAxODU0NzQxNjAwCn0.o_dNk1xT34fuk7wVQGNnL7GBEWKfPnPQmta6dtv3lHA
   - username: service_role
     keyauth_credentials:
-      - key: $SUPABASE_SERVICE_KEY
+      - key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.ewogICJyb2xlIjogInNlcnZpY2Vfcm9sZSIsCiAgImlzcyI6ICJzdXBhYmFzZSIsCiAgImlhdCI6IDE2OTY4ODg4MDAsCiAgImV4cCI6IDE4NTQ3NDE2MDAKfQ.CzcXCY1t41FpPUXfv8bFII8jh0Vex6WXhj_wATNSkNE
 
 ###
 ### Access Control List
